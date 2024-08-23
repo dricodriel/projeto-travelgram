@@ -7,7 +7,7 @@
 :root {
 --brand-color: #EF5F4C;
 --background-color:#FFFFFF;
---surfaec-color: #F5F5F5;
+--surface-color: #F5F5F5;
 --skeleeton-color: #D9D9D9;
 --shape-transparency: #ffffff8f;
 --text-color-primary: #313131;
@@ -30,7 +30,7 @@ color: inherit;
 }
 
 a:hover {
-  color: :var(var(--brand-color);
+  color: var(--brand-color);
   text-decoration: underline;
 }
 
@@ -41,5 +41,5 @@ a:hover {
 }
 
 .bg-surface-color {
-  background-color: var(--surfaec-color);
+  background-color: var(--surface-color);
 }
